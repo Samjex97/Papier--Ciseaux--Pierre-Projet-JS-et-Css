@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to top, #ff0000, #ffA500);
+}
+.container {
+    display: flex;
+    position:relative;
+    
+}
+.nav {
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    
+   
+} 
+.titolo h1 h2{
+    justify-content: center;
+  
+}
+.scelta {
+ display: flex;
+ justify-content: center;
+}
+#Scelta {
+font-size: 80px;
+    font-weight: bold; 
+    
+   
+    color: black;
+    display: inline-block; 
+    
+}
+.carta {
+border: 2px solid black;
+margin: 20px;
+padding: 100px;
+border-radius: 20px;
+background-color: azure;
+color: black;
+cursor: pointer;
+}
+
+.forbice {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+.sasso {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.cartedagioco {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+
+
+border: 1px solid black;
+    margin: 20px;
+    padding: 50px;
+}
+.buttone {
+   
+    display: flex;
+    justify-content: center;
+   
+}
+button {
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+    border-radius: 20px;
+    font-size: 30px;
+    border: 2px solid black;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
